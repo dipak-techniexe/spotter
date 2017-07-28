@@ -1,0 +1,57 @@
+{
+  "images": [{
+    "id": 1,
+    "img":"banne-img.png",
+    "icon": "user",
+    "title": "Spotter Profile",
+    "desc":"This is your customizable user profile with name, picture, status bar & other details. Your Spotter Self!"
+    }, {
+    "id": 2,
+    "img":"banne-img.png",
+    "icon": "clone",
+    "title": "SpottCards",
+    "desc":"Six ways to share an activity - images/videos/texts/web-links/voice-notes & Spotticons. Seventh being your own creativity!"
+    }, {
+    "id": 3,
+    "img":"banne-img.png",
+    "icon": "feed",
+    "title": "SpottFeed",
+    "desc":"Constant updates of all that brews in Spotter World, so that you never miss out on anything!"
+    },{
+    "id": 4,
+    "img":"banne-img.png",
+    "icon": "calendar-plus-o",
+    "title": "SpottNow",
+    "desc":"Feeling Creative? Have an activity to share? That's when you SpottNow!"
+    }, {
+    "id": 5,
+    "img":"banne-img.png",
+    "icon": "group",
+    "title": "SpottBuddies",
+    "desc":"Your trusted inner circle on Spotter, your friends & family. Those you don’t mind welcoming, whose attention you like."
+    }, {
+    "id": 6,
+    "img":"banne-img.png",
+    "icon": "sitemap",
+    "title": "Trail",
+    "desc":"Traveling somewhere? Why not document your trip? Make a trail of memories, a trail of SpottCards! Your trip log for future reference!"
+    },{
+    "id": 7,
+    "img":"banne-img.png",
+    "icon": "podcast",
+    "title": "Nearby",
+    "desc":"A feature to view SpottCards created in close proximity of your current location!"
+    }, {
+    "id": 8,
+    "img":"banne-img.png",
+    "icon": "map-pin",
+    "title": "Spotts",
+    "desc":"Your global footprints. A map-view of all your memories, your SpottCards created in different parts of the world."
+    }, {
+    "id": 9,
+    "img":"banne-img.png",
+    "icon": "file-text-o",
+    "title": "Spottification",
+    "desc":"Get a notification each time a Buddy directly shares something with you, or keep up with Buddies from another circle who show some love!"
+    }]
+  }
