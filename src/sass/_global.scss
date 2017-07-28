@@ -51,12 +51,12 @@ a{
 }
 
 ::-moz-selection{
-    color: $base;
-    background: white;
+    color: white;
+    background: $base;
 }
 ::selection {
-    color: $base;
-    background: white;
+    color: white;
+    background: $base;
 }
 
 address{

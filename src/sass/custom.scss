@@ -337,6 +337,7 @@
         padding:60px 0;
         background: $base;
         text-align: center;
+        overflow: hidden;
         @media #{$mobp}{
             &{
                 padding:30px 0;
@@ -357,6 +358,12 @@
                 &.act{
                     display: table;
                     animation-name: fadeIn;
+                    .col-md-5{
+                        animation-name: fadeInLeft;
+                    }
+                    .col-md-7{
+                        animation-name: fadeInRight;
+                    }
                 }
                 [class*="col-"]{
                     float:none;
@@ -381,10 +388,13 @@
                     }
                     
                 }
-                
+                .col-md-5{
+                    @include anim;
+                }
                 .col-md-7{
                     padding: 0 30px;
                     background: #373837;
+                    @include anim;
                     @include border-radius(10px);
                 }
                 @media #{$mobp}{

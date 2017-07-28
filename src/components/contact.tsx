@@ -8,10 +8,11 @@ const icon = require('Images/icon.png');
 class Contact extends React.Component<any, any> {
   componentDidMount(){
     document.addEventListener("DOMContentLoaded",()=>{
+      var Contact:any = document.getElementById("Contact");
       var parallax:any = document.getElementById("mapCont");
       window.onscroll = () => {
-          var curParaP:HTMLDivElement=parallax, windowYOffset = window.pageYOffset;
-          if(windowYOffset>=curParaP.offsetTop){
+          var curParaP:HTMLDivElement=Contact, windowYOffset = window.pageYOffset;
+          if(windowYOffset+51 >=curParaP.offsetTop){
             parallax.className = "mapCont act";
           }
       };
