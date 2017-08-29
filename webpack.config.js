@@ -11,7 +11,7 @@ module.exports = {
   devServer: {
     contentBase: resolve(__dirname, "dist"),
     compress: true,
-    port: 9000,
+    port: 5001,
     historyApiFallback: true,
   },
   module: {
